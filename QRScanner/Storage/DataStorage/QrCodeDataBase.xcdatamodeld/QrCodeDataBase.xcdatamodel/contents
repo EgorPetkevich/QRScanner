@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23A344" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="BarcodeMO" representedClassName="BarcodeMO" parentEntity="BaseQrCodeMO" syncable="YES">
+        <attribute name="barcode" optional="YES" attributeType="String"/>
+        <attribute name="strUrl" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="BaseQrCodeMO" representedClassName="BaseQrCodeMO" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="identifier" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PhoneQrCodeMO" representedClassName="PhoneQrCodeMO" parentEntity="BaseQrCodeMO" syncable="YES">
+        <attribute name="phone" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TextQrCodeMO" representedClassName="TextQrCodeMO" parentEntity="BaseQrCodeMO" syncable="YES">
+        <attribute name="strUrl" optional="YES" attributeType="String"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UrlQrCodeMO" representedClassName="UrlQrCodeMO" parentEntity="BaseQrCodeMO" syncable="YES">
+        <attribute name="strUrl" optional="YES" attributeType="String"/>
+    </entity>
+</model>
